@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "linc-ii",
+            "project": "linc-ii",
+            "authToken": "e1114d8b3a6f4de4875e679466f45f82edd97c2f535b4ffa98e6f8ff49253b45"
+          }
+        }
+      ]
+    },
+    "name": "Linc",
+    "slug": "react-native-firebase",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.app.linc",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.app.linc",
+      "versionCode": 1
+    },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
+    "description": "demo",
+    "privacy": "hidden",
+    "userInterfaceStyle": "light"
+  }
+}
